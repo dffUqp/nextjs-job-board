@@ -1,0 +1,18 @@
+:root {
+  --dark: #3a4562;
+  --blue: #55699e;
+  --secondary: #878d9d;
+  --dark-100: #384564;
+  --dark-100-opacity: rgba(56, 69, 100, 0.14);
+  --white-100: #e6e9f2;
+  --white-200: #eff0f5;
+
+  --gray: #70778b;
+  --golden: #988b49;
+
+  --option-selected-100: rgba(161, 177, 219, 0.317343);
+  --option-border-100: rgba(85, 105, 158, 0.3);
+
+  --option-selected-200: rgba(255, 207, 0, 0.15);
+  --option-border-200: #ffcf00;
+}

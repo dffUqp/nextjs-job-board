@@ -1,0 +1,9 @@
+@import './_tailwind.css';
+@import './_fonts.css';
+@import './_variables.css';
+
+html,
+body {
+  font-family: 'ProximaNova', 'Roboto';
+  background: var(--white-100);
+}
