@@ -1,9 +1,9 @@
-import React from 'react';
-import JodDetails from '../components/JodDetalis';
+import { NextPage } from 'next';
+import JodDetails from '../components/JodDetails';
 import { wrapper } from '../store';
 import { fetchJob } from '../store/slices/asyncActions/fetchJobs';
 
-const JodDetailsPage = (): JSX.Element | null => {
+const JodDetailsPage: NextPage = () => {
   return <JodDetails />;
 };
 

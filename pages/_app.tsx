@@ -6,8 +6,9 @@ import { Provider } from 'react-redux';
 import Head from 'next/head';
 import NextNProgress from 'nextjs-progressbar';
 import { PersistGate } from 'redux-persist/integration/react';
+import { NextPage } from 'next';
 
-function App({ Component, pageProps }: AppProps): JSX.Element {
+const App: NextPage<AppProps> = ({ Component, pageProps }) => {
   const { store, props } = wrapper.useWrappedStore(pageProps);
 
   return (
@@ -23,6 +24,6 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
       </Provider>
     </>
   );
-}
+};
 
 export default App;

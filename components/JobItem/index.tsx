@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { checkIsSavedJob, saveJob } from '../../store/slices/jobsSlice';
 import { JobsType } from '../../ts/JobsTypes';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { postedAt } from '../../../utils';
 
 type JobNameProps = {

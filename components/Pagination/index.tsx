@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactPaginate from 'react-paginate';
 import { PaginationEventType } from '../../ts/GeneralTypes';
 import { ArrowLeftIcon, ArrowRightIcon } from '../UI/icons';

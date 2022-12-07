@@ -8,8 +8,9 @@ import Link from 'next/link';
 import { PaginationEventType } from '../ts/GeneralTypes';
 import { usePagination } from '../hooks/usePagination';
 import Error from 'next/error';
+import { NextPage } from 'next';
 
-export default function Home(): JSX.Element {
+const Home: NextPage = () => {
   const data = useAppSelector((state) => state.jobReducer.data);
   const router = useRouter();
   const page = !Number(router.query.page) ? 0 : Number(router.query.page) - 1;
@@ -47,7 +48,9 @@ export default function Home(): JSX.Element {
       </div>
     </div>
   );
-}
+};
+
+export default Home;
 
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
