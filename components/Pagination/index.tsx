@@ -30,6 +30,7 @@ const Pagination = ({
       pageClassName={style.pageClassName}
       breakClassName={style.pageClassName}
       activeClassName={style.activeClassName}
+      pageLinkClassName={style.pageLinkClassName}
     />
   );
 };

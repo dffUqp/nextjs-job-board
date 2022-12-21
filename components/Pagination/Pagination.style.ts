@@ -16,10 +16,10 @@ const PaginationStyle = {
     'after:content-[""] after:absolute after:left-0 after:w-[1.3px] after:h-[35px] after:bg-gray after:opacity-50',
   ].join(' '),
 
-  pageClassName: ['w-[31px] flex items-center justify-center relative'].join(
+  pageClassName: ['w-[31px] relative '].join(' '),
+  pageLinkClassName: ['flex items-center justify-center w-full h-full'].join(
     ' '
   ),
-
   activeClassName: [
     'text-blue after:content-[""] after:absolute after:w-full after:h-[1px] after:bottom-0 after:bg-blue',
   ].join(' '),

@@ -29,7 +29,7 @@ module.exports = {
       bold: 700,
     },
     fontFamily: {
-      ProximaNovaNova: 'ProximaNova',
+      ProximaNova: 'ProximaNova',
       Roboto: 'Roboto',
     },
     fontSize: {

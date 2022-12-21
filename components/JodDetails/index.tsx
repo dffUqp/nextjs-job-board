@@ -5,7 +5,7 @@ import {
   saveJob,
   selectJobById,
 } from '../../store/slices/jobsSlice';
-import { ArrowLeftIcon, BookMarkIcon } from '../UI/icons';
+import { ArrowLeftIcon, BookMarkIcon, ShareIcon } from '../UI/icons';
 import MainButton from '../UI/MainButton';
 import JobAdditional from './JobAdditional';
 import JobDescription from './JobDescription';
@@ -47,7 +47,7 @@ const JodDetails = (): JSX.Element | null => {
               </div>
 
               <div className="flex items-center">
-                <BookMarkIcon />
+                <ShareIcon />
                 <span>Share</span>
               </div>
             </div>

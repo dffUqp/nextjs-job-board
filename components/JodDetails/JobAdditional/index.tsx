@@ -22,7 +22,7 @@ const JobAdditional = ({
           <span className="mb-1.5 block font-Roboto text-md text-dark">
             Employment type
           </span>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {employment_type.map((elem, index) => (
               <div
                 className="flex h-[49px] w-full max-w-[220px] items-center justify-center rounded-lg border border-option-border-100 bg-option-selected-100 font-bold text-dark"
@@ -38,7 +38,7 @@ const JobAdditional = ({
           <span className="mb-1.5 block font-Roboto text-md text-dark">
             Benefits
           </span>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {benefits.map((elem, index) => (
               <div
                 className="flex h-[49px] w-full max-w-[220px] items-center justify-center rounded-lg border border-option-border-200 bg-option-selected-200 font-bold text-golden"
